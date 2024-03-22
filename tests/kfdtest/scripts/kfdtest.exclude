@@ -362,6 +362,9 @@ FILTER[gfx950_gopher_lsc]=\
 "KFDQMTest.SdmaQueueWraparound:"\
 "KFDQMTest.SdmaEventInterrupt:"\
 "KFDQMTest.GPUDoorbellWrite:"\
+"KFDQMTest.CreateQueueStressSingleThreaded:"\
+"KFDQMTest.OverSubscribeCpQueues:"\
+"KFDQMTest.P2PTest:"\
 "KFDCWSRTest.BasicTest:"\
 "KFDExceptionTest.SdmaQueueException:"\
 "KFDSVMRangeTest.EvictSystemRangeTest*:"\
@@ -378,7 +381,11 @@ FILTER[gfx950_gopher_lsc]=\
 "KFDSVMRangeTest.VramOvercommitTest*:"\
 "KFDSVMRangeTest.VramOvercommitGiantRangeTest*:"\
 "KFDSVMRangeTest.PrefaultPartialRangeTest*:"\
+"KFDSVMRangeTest.BasicSystemMemTest:"\
+"KFDSVMRangeTest.PartialUnmapSysMemTest:"\
 "KFDPerfCountersTest.ClockCountersBasicTest:"\
+"KFDGWSTest.Allocate:"\
+"KFDExceptionTest.SdmaQueueException:"\
 "KFDEvictTest.*:"\
 "KFDSVMEvictTest.*:"\
 "KFDRASTest.*:"\
